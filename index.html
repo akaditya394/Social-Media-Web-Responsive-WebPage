@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ChatHut</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Boostrap-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!--Fonts-->
+
+    <!--Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2011771dd1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font Awesome-->
+  </head>
+  <body>
+    <!--Header-->
+    <div class="sidebar">
+    <div
+      class="d-flex flex-column flex-shrink-0 p-3 sidenav"
+      style="width: 279px; background-color:#a29bfe; height: 100vh; font-family: 'Ubuntu', sans-serif; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; position: fixed;"
+    >
+      <a
+        href="/"
+        class="
+          d-flex
+          align-items-center
+          mb-3 mb-md-0
+          me-md-auto
+          link-dark
+          text-decoration-none
+        "
+      >
+        <span class="fs-4" style="color: #fff; margin-left: 25px; font-weight: 500;">ChatHut</span>
+      </a>
+      <hr />
+      <ul class="nav nav-pills flex-column mb-auto" style="font-family:'Montserrat',sans-serif">
+        <li class="nav-item" style="margin: 10px 0" >
+        
+          <a href="#" class="nav-link active" aria-current="page">
+            <i class="fas fa-home"></i>  Home
+          </a>
+        </li>
+        <li class="nav-item" style="margin: 10px 0">
+          <a href="#" class="nav-link link-dark">
+           <i class="fas fa-film"></i>  Highlights
+          </a>
+        </li>
+        <li class="nav-item" style="margin: 10px 0">
+          <a href="#" class="nav-link link-dark">
+        <i class="fas fa-quote-right"></i>  Mentions
+          </a>
+        </li>
+        <li class="nav-item" style="margin: 10px 0">
+          <a href="#" class="nav-link link-dark">
+          <i class="fas fa-search"></i>  Discover
+          </a>
+        </li>
+        <li class="nav-item" style="margin: 10px 0">
+          <a href="#" class="nav-link link-dark">
+          <i class="fas fa-users"></i>  Friends
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <div class="dropdown">
+        <a
+          href="#"
+          class="
+            d-flex
+            align-items-center
+            link-dark
+            text-decoration-none
+            
+          "
+        >
+          <img
+            src="https://i2-prod.dailystar.co.uk/incoming/article19572901.ece/ALTERNATES/s1200c/0_TommySmall.jpg"
+            alt=""
+            width="36"
+            height="36"
+            class="rounded-circle me-2"
+          />
+          <b style="color: white; font-family:'Montserrat', sans-serif; margin-top:5px;">Thomas Shelby</b>
+        </a>
+      </div>
+    </div>
+    </div>
+     <div class="d-flex flex-column flex-shrink-0 bg-light sidebar-2" style="width: 6rem;">
+    <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
+      <h6 style="font-family: 'Ubuntu', sans-serif;color:#fff;">ChatHut</h6>
+    </a>
+    <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+      <li class="nav-item">
+        <a href="#" class="nav-link active py-3 border-bottom" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="fas fa-home"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link py-3 border-bottom" title="Dashboard" data-bs-toggle="tooltip" data-bs-placement="right">
+           <i class="fas fa-film"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link py-3 border-bottom" title="Orders" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="fas fa-quote-right"></i> 
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link py-3 border-bottom" title="Products" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="fas fa-search"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link py-3 border-bottom" title="Customers" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="fas fa-users"></i>
+        </a>
+      </li>
+    </ul>
+    <div class="dropdown border-top">
+      <a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="https://i2-prod.dailystar.co.uk/incoming/article19572901.ece/ALTERNATES/s1200c/0_TommySmall.jpg" alt="Thomas Shelby" width="24" height="24" class="rounded-circle">
+      </a>
+    </div>
+  </div>
+    <div class="header">
+      <div class="search-box">
+        <input
+          type="text"
+          class="search"
+          placeholder="Search for people, pages and more!"
+          size="50"
+        />
+      </div>
+      <div class="navigation">
+        <nav class="navbar navbar-expand">
+          <div class="container-fluid">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="far fa-user-circle fa-2x nav-icons"></i
+              ></a>
+              <a class="nav-link" href="#"><i class="fas fa-bell fa-2x nav-icons"></i></a>
+              <a class="nav-link" href="#"><i class="fas fa-cog fa-2x nav-icons"></i></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--Header-->
+    <!--Content-->
+    <div class="container-create-post">
+     <img
+            src="https://i2-prod.dailystar.co.uk/incoming/article19572901.ece/ALTERNATES/s1200c/0_TommySmall.jpg"
+            alt=""
+            width="42"
+            height="42"
+            class="rounded-circle me-2 create-post-img"
+            style="margin-top:14px; float:left;"
+          />
+          <input class="-create-post" type="text" placeholder="create a post" size="50" style="float:left; margin-top:14px; margin-left:22px; outline:none;border:none; background-color:#a29bfe; border-radius:5px; padding:10px;" />
+          <ul class="create-post-buttons">
+          <li class="create-post-list-item"><button class="btn"><i class="far fa-image" style="color:white"></i></button></li>
+          <li class="create-post-list-item"><button class="btn"><i class="far fa-paper-plane" style="color:white"></i></button></li>
+          <ul>
+    </div>
+  <div class="all=posts">  
+<div class="first-post">
+  <div class="container-1">
+    <img src="https://i.pinimg.com/originals/3b/f9/52/3bf95269083f26ddce72b275dc27f3f5.jpg" width="36" height="36" class="rounded-circle me-2 profile-img" alt="img" />
+    <p class="account-name">John Shelby</p>
+    <p class="time">10 hours ago</p>
+  </div>
+  <div class="container-2">
+    <img class="post-content" src="https://wallpaperaccess.com/full/1781425.jpg" />
+  </div>
+  <div class="container-3">
+    <hr />
+    <div>
+      <p class="caption"> Welcome to the peaky blinders</p>
+
+    </div>
+    <div class=sm-actions>
+      <button class="btn"> <i class="far fa-thumbs-up sm-icons"></i></button>
+      <button class="btn"><i class="far fa-share-square sm-icons"></i></button>
+      <button class="btn"> <i class="far fa-bookmark sm-icons"></i></button>
+    </div>
+  </div>
+  <div class="conatiner-4">
+    <img src="https://i2-prod.dailystar.co.uk/incoming/article19572901.ece/ALTERNATES/s1200c/0_TommySmall.jpg" width="36" height="36" class="rounded-circle me-2 profile-img" alt="img" />
+    <input class="comment" size="28.7" type="text" placeholder="Write a comment....." />
+    <button class="btn sm-icons"><i class="fas fa-arrow-circle-up"></i></button>
+    </div>
+
+</div>
+<div class="second-post">
+  <div class="container-1">
+    <img src="https://cdn.pastemagazine.com/www/articles/2019/10/07/peaky-blinders-season-5-polly-main/peaky-blinders-season-5-polly-main.jpg" width="36" height="36" class="rounded-circle me-2 profile-img" alt="img" />
+    <p class="account-name">Polly Shelby</p>
+    <p class="time">15 hours ago</p>
+  </div>
+  <div class="container-2">
+    <img class="post-content" src="https://www.denofgeek.com/wp-content/uploads/2017/11/peaky_blinders_4_polly_office-5.jpg" />
+  </div>
+  <div class="container-3">
+    <hr />
+    <div>
+      <p class="caption"> Tommy's got a plan</p>
+
+    </div>
+    <div class=sm-actions>
+      <button class="btn"> <i class="far fa-thumbs-up sm-icons"></i></button>
+      <button class="btn"><i class="far fa-share-square sm-icons"></i></button>
+      <button class="btn"> <i class="far fa-bookmark sm-icons"></i></button>
+    </div>
+  </div>
+  <div class="conatiner-4">
+    <img src="https://i2-prod.dailystar.co.uk/incoming/article19572901.ece/ALTERNATES/s1200c/0_TommySmall.jpg" width="36" height="36" class="rounded-circle me-2 profile-img" alt="img" />
+    <input class="comment" size="28.7" type="text" placeholder="Write a comment....." />
+    <button class="btn sm-icons"><i class="fas fa-arrow-circle-up"></i></button>
+    </div>
+
+</div>
+</div>
+<div class="third-post">
+  <div class="container-1">
+    <img src="https://i.pinimg.com/736x/15/22/25/15222561ca63180b53bcacbe326549bb.jpg" width="36" height="36" class="rounded-circle me-2 profile-img" alt="img" />
+    <p class="account-name">Arthur Shelby</p>
+    <p class="time">18 hours ago</p>
+  </div>
+  <div class="container-2">
+    <img class="post-content" src="https://www.looper.com/img/gallery/the-biggest-problem-arthur-shelby-has-in-peaky-blinders/l-intro-1614618628.jpg" />
+  </div>
+  <div class="container-3">
+    <hr />
+    <div>
+      <p class="caption">Alright Tommy</p>
+
+    </div>
+    <div class=sm-actions>
+      <button class="btn"> <i class="far fa-thumbs-up sm-icons"></i></button>
+      <button class="btn"><i class="far fa-share-square sm-icons"></i></button>
+      <button class="btn"> <i class="far fa-bookmark sm-icons"></i></button>
+    </div>
+  </div>
+  <div class="conatiner-4">
+    <img src="https://i2-prod.dailystar.co.uk/incoming/article19572901.ece/ALTERNATES/s1200c/0_TommySmall.jpg" width="36" height="36" class="rounded-circle me-2 profile-img" alt="img" />
+    <input class="comment" size="28.7" type="text" placeholder="Write a comment....." />
+    <button class="btn sm-icons"><i class="fas fa-arrow-circle-up"></i></button>
+    </div>
+
+</div>
+
+<div class="may-follow">
+
+  <h4>You may like to follow</h4>
+  <ul class="may-follow-list">
+    <li class="may-follow-list-item">
+      <img src="https://i.pinimg.com/originals/3b/f9/52/3bf95269083f26ddce72b275dc27f3f5.jpg" width="36" height="36" class="rounded-circle me-2" alt="img" />
+      John Shelby    <i class="fas fa-user-plus" style="margin: 0 10px"></i>
+    </li>
+
+    <li class="may-follow-list-item">
+      <img src="https://i.pinimg.com/736x/15/22/25/15222561ca63180b53bcacbe326549bb.jpg" width="36" height="36" class="rounded-circle me-2" alt="img" />
+      Arthur Shelby    <i class="fas fa-user-plus" style="margin: 0 10px"></i>
+    </li>
+    <li class="may-follow-list-item">
+      <img src="https://cdn.pastemagazine.com/www/articles/2019/10/07/peaky-blinders-season-5-polly-main/peaky-blinders-season-5-polly-main.jpg" width="36" height="36" class="rounded-circle me-2" alt="img" />
+      Polly Shelby    <i class="fas fa-user-plus" style="margin: 0 10px"></i>
+    </li>
+    <li class="may-follow-list-item">
+      <img src="https://ichef.bbci.co.uk/images/ic/1200x675/p07l6gl0.jpg" width="36" height="36" class="rounded-circle me-2" alt="img" />
+      Finn Shelby    <i class="fas fa-user-plus" style="margin: 0 10px"></i>
+    </li>
+
+    <li class="may-follow-list-item">
+      <img src="https://static.fabrik.io/1dh5/637390a4c551ad19.jpg?lossless=1&w=1024&ar=4:3&fit=crop&crop=faces,entropy&s=ac7f537e4dfb2d7d49142ba58cfe5d5c" width="36" height="36" class="rounded-circle me-2" alt="img" />
+      Alfie Solomon    <i class="fas fa-user-plus" style="margin: 0 10px;"></i>
+    </li>
+  </ul>
+</div>
+
+
+     <!--Content-->
+  </body>
+</html>
